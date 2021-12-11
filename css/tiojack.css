@@ -1,0 +1,296 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "BlackOpsOne-Regular";
+    src: url("../fonts/black-ops/BlackOpsOne-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "DotGothic16-Regular";
+    src: url("../fonts/Gothic-gamer/DotGothic16-Regular.ttf");
+    font-size: 1em;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 205, .8);
+    z-index: 2;
+    position: relative;
+}
+header .container {
+     position: relative;
+}
+header .header-black {
+    background-color: #000;
+    height: 50px;
+    margin-top: -16px;
+}
+header .header-black ul.float-right {
+    margin-left: 15px;
+}
+header img {
+    width: 13%;
+    height: 150px;
+    margin-top: 16px;
+    margin-left: -45px;
+}
+header #logotipo {
+	position: absolute;
+    top: 15px;
+    height: 160px;
+    width: 140px;
+}
+#menu ul {
+   position: absolute; 
+   right: 0;
+   margin: 40px;
+}
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+#menu li.search {
+	width: 182px;
+
+}
+#menu li.search input {
+	background-color: #0000CD;
+	color: #FFF
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+#menu li.search ::-webkit-input-placeholder {
+	color: #FFF
+}
+#menu li.search button {
+	background: none;
+	border: none;
+	position: relative;
+    right: 24px;
+    top: 2px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+#menu li.search .input-group {
+	top: 4px;
+}
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner-gamer.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -110px;
+}
+#banner h1 {
+	color: #0000CD;
+	top: 300px;
+	position: relative;
+	font-size: 140px;
+	text-shadow: -15px -11px 2px rgba(0, 0, 0, .45);
+	font-family: "Staatliches-Regular";
+	margin-left: 50px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#banner h1 small {
+	font-size: 80px;
+	display: block;
+	color: #03ff0b;
+	font-family: "Staatliches-Regular";
+	font-weight: bold;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+#news {
+	position: relative;
+	top: -110px;
+}
+#news .logotipo {
+	height: 100px;
+    width: 850px;
+    margin-left: 150px;
+}
+#news h2 {
+	color: #000;
+    font-family: "BlackOpsOne-Regular";
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+#news hr {
+	border:#ffc10700 solid 8px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5E299A;
+	font-size: 18px;
+	font-family: "OpenSans";
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+#news .thumbnails {
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: "OpenSans";
+}
+#news img {
+	height: 160px;
+	width: 160px;
+	margin-top: 30px;
+	position: relative;
+	margin-left: 15px;
+}
+#estatisticas {
+	background-color: #0000CD;
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+}
+#estatisticas p {
+    color: #000;
+    text-transform: uppercase;
+    font-family: "IrishGrover-Regular";
+    font-size: 64px;
+    margin-top: 36px;
+}
+#estatisticas p small {
+	color: #FFF;
+	font-size: 24px;
+	display: block;
+    font-family: "DotGothic16-Regular";
+
+}
+footer {
+	margin-top: 110px;
+}
+footer .row {
+	width: 100%;
+}
+footer .row p {
+    line-height: 55px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+footer .row-cinza-claro {
+	height: 200px;
+	width: 100%;
+	background-color: #171f26;
+}
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #11171d;
+	border-top: #242D37 1px solid;
+}
+footer .float-left {
+	font-family: "OpenSans";
+	font-size: 14px;
+	color: #666;
+}
+footer .logotipo {
+	margin-top: 30px;
+    margin-left: 20px;
+    height: 150px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+    margin-top: 40px;	
+}
+footer .row-cols h4 {
+	font-family: "OpenSans";
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+
+}
+footer .col-links a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links .fa {
+	margin: 0 6px;
+}
+footer .col-get-in-touch address {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .col-get-in-touch address span {
+    display: inline-block;
+}
+footer .col-get-in-touch address i {
+	position: relative;
+	top: -14px;
+}
+footer .col-get-in-touch i {
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+}
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
+footer .col-get-in-touch a {
+	color: #666;
+	margin-left: -23px;
+}
+footer .list-socials {
+	margin-top: 15px;
+	margin-left: 25px;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+	margin-right: 20px;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+}
